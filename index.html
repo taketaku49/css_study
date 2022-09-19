@@ -49,7 +49,73 @@
         width:50%;とすると親要素の50%になる。<br>
         あふれた場合の指定は overflow:hidden;とするとそこまでしか表示せず<br>
         overflow:scroll;とするとスクロールバーが表示される。</li>
-        
+    <li><a href="./1-12/index.html">borderで境界線をつけてみよう　＃２０</a><br>
+        border-with:2px; border-style:solid; border-color:brue; <be>
+        一括指定では border:2px solid blue;と書ける。<br>
+        solidは実線。dashedは点線。<br>
+        border-top,border-bottomのように一部のみ指定も可能。noneとすると設定なしとなる。<br>
+        角を丸くするには border-radius: 10px;のようにする。<br>
+        </li>        
+    <li><a href="./1-13/index.html">paddingで内側の余白をつけよう　＃２１</a><br>
+        padding-top: 20px; padding-left: 40px;　<br>
+        一括指定では padding: 10px 20px 30px 40px;のように書く</li>
+    <li><a href="./1-14/index.html">marginで外側の余白をつけよう　＃２２</a><br>
+        margin: 0 0 20px;    /* 下に余白が20pxできる */　<br>
+        margin-left: auto;   /* 左に余白 */　<br>
+        margin-right: auto;  /* 右に余白。上と合わせて結果的に中央となる */ <br> </li>
+    <li><a href="./1-15/index.html">displayプロパティについて理解しよう　＃２５</a><br>
+        display: inline; /* 左につめたい inlineにするとwidthとheightはきかなくなる */　<br>
+        display: inline-block;　/* width、heightが反映される */<br>
+        display: none;  こうすると消えてしまう <br> </li>
+    <li><a href="./1-16/index.html">positionで要素の位置を変えよう　＃２６</a><br>
+        position: relative; /* staticの位置からずらして配置したい場合 */<br>
+		top:30px;   /* staticの位置から30px分移動する */<br>
+		left:30px;<br>
+		  
+		position: fixed; /* windowの左上を起点にする */<br>
+		top:30px;   /* 左上の位置から30px分移動する */<br>
+		left:30px; <br> </li>
+	<li><a href="./1-17/index.html">要素を絶対配置してみよう　＃２７</a><br>
+          要素が親子関係の時<br>
+          position: absolute; /* 絶対配置 */<br>
+		  /* 親要素がstaticであれば左上を起点とする */<br>
+		  /* 親要素がstatic以外(relativeとか)であれば親要素を起点とする */<br>
+		  /* top: 30px;<br>
+		  left: 10px; */<br>
+		  top: -5px;<br>
+		  right: -5px;<br>
+          </li>
+    <li><a href="./1-18/index.html">z-indexで重なり順を操作しよう　＃２８</a><br>
+        z-index: 3;　数値の大きいのが前にくる　<br>
+        つけなければ、後に書いたものが重なっていく<br> </li>
+    <li><a href="./1-19/index.html">box-sizingを使ってみよう　＃２９</a><br>
+        widthとheightにはpaddingとborderが含まれていないが<br>
+        場合によってはこれらを含めたい場合がある　<br>
+        box-sizing: border-box;とするとwidthとheightが<br>
+        paddingとborderを含めるようになる。
+        つけなければ、後に書いたものが重なっていく<br> </li>
+    <li><a href="./1-20/index.html">calcで単位が違う計算をしてみよう　＃３０</a><br>
+        単位が違っても計算できる。 + - * / を使う。演算子の前後は半角ブランクが必要<br></li>
+    <li><a href="./1-21/index.html">要素に影をつけてみよう　＃３１</a><br>
+        box-shadow: 10px 5px rgba(0,0,0,0.3);  /* ボックスのX方向、Y方向に薄い影をつける */<br>
+        text-shadow: 10px 5px rgba(0,0,0,0.3); /* 文字にもつける */<br>
+        box-shadow: 10px 5px rgba(0,0,0,0.3);  /* 3番目の数値をつけて、影のぼかし具合を設定 */<br>
+        box-shadow: 10px 5px 3px 10px rgba(0,0,0,0.3); /* ４番目で影を拡大する */<br>
+        </li>
+    <li><a href="./1-22/index.html">背景のスタイリングをしていこう　＃３２</a><br>
+     background-image: url(../img/header.png);<br>
+	  background-size: cover; /* 画像の縦横比を保持したまま、なるべく大きく表示したい場合 */<br>
+	  background-position: center; /* デフォルトは画像の左上が起点。画像の中心を起点にしたい場合 */<br>
+	  /* 一括指定 */<br>
+	  background: center/cover pink url(../img/header.png);<br>
+      </li>
+    <li><a href="./1-23/index.html">floatを使ってみよう　＃３３</a><br>
+      img{  float: right; } /* イメージを右に寄せる 通常の配置から外れる */ <br>
+      クリアする場合は<br>
+      clear: right;<br>
+    </li>
+    
+                
   </ol>
 </body>
 </html>
