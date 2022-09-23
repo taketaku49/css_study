@@ -1,9 +1,0 @@
-header {
-  height: 80px;
-  /* background-color: pink; */
-  background-image: url(../img/header.png);
-  background-size: cover; /* 画像の縦横比を保持したまま、なるべく大きく表示したい場合 */
-  background-position: center; /* デフォルトは画像の左上が起点。画像の中心を起点にしたい場合 */
-  /* 一括指定 */
-  background: center/cover pink url(../img/header.png);
-}
