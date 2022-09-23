@@ -1,0 +1,23 @@
+.container {
+  display: flex;  /* フレックスボックスを使うという指定 */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+
+}
+ 
+.box1 {
+  background:orange;
+  flex: 1; /* 左をぐっと伸ばして、あとのふたつを右に寄せる */
+}
+
+.box2 {
+  background:skyblue;
+}
+
+.box3 {
+  background:tomato;
+} 
+

@@ -1,0 +1,33 @@
+body{
+  margin:0;
+}
+
+header {
+  background: pink;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  background: skyblue;
+  flex:1; /* mainを伸ばす */
+}
+
+nav {
+  background: tomato;
+  width:100px;
+  order: -1 ; /* 左に持っていきたい */
+}
+
+aside {
+  background: orange;
+  width:100px;
+}
+
+footer{
+  background: silver;
+}
+
+
