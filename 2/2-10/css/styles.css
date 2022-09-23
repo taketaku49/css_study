@@ -1,0 +1,9 @@
+/* 空の要素 */
+/* li:empty{
+  background: skyblue;
+} */
+
+/* 空ではない要素 */
+li:not(:empty){
+  background: skyblue;
+}

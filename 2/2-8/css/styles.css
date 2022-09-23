@@ -1,0 +1,29 @@
+/* mainの階層で３番目 */
+/* main > :nth-child(3){
+  background: pink;
+} */
+
+/* mainの階層で３の倍数 */
+/* main > :nth-child(3n){
+  background: pink;
+} */
+
+/* 奇数番目 */
+/* main > :nth-child(odd){
+  background: pink;
+} */
+
+/* 偶数番目 */
+/* main > :nth-child(even){
+  background: skyblue;
+} */
+
+/* 最初 */
+main > :first-child{
+  background: pink;
+}
+
+/* 最後 */
+main > :last-child{
+  background: skyblue;
+}

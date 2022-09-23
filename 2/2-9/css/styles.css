@@ -1,0 +1,25 @@
+/* mainの階層のh2の３番目という指定 */
+/* main > h2:nth-of-type(3){
+  background:pink;
+} */
+
+/* mainの階層のh2で偶数という指定 */
+/* main > h2:nth-of-type(even){
+  background:pink;
+} */
+
+/* mainの階層のh2で奇数という指定 */
+/* main > h2:nth-of-type(odd){
+  background:pink;
+} */
+
+/* mainの階層のh2の最初という指定 */
+main > h2:first-of-type{
+  background:pink;
+}
+
+
+/* mainの階層のh2の最後という指定 */
+main > h2:last-of-type{
+  background:pink;
+}
