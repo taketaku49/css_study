@@ -1,0 +1,24 @@
+.box1 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  
+
+}
+.box2 {
+  box-sizing: border-box; /* これをつけると枠線を考慮したwidth、heightとなる */
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  border: 10px solid blue; /* これだけだと枠線の分、ずれてしまう */
+  
+}
+
+.box3 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  
+}
+
+

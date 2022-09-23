@@ -1,0 +1,25 @@
+/* 属性がついたもの */
+[target] {
+  font-weight: bold;
+}
+
+/* 値まで指定する場合 */
+[href="#top"] {
+  font-weight: bold;
+}
+
+/* 前方一致 */
+[href^="https"] {
+  font-weight: bold;
+}
+
+/* 後方一致 */
+[href$="dotinstall"] {
+  font-weight: bold;
+}
+
+/* 部分一致 */
+[href$="com"] {
+  font-weight: bold;
+}
+

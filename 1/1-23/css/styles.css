@@ -1,0 +1,7 @@
+img{
+  float: right; /* イメージを右に寄せる 通常の配置から外れる */
+}
+
+h2 {
+  clear: right;
+}

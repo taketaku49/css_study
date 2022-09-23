@@ -1,0 +1,14 @@
+/* 白マル */
+ul{
+  /* list-style-type: circle; */
+  /* list-style-position: inside; 内側 */
+  /* list-style-image: url(icon.png);  記号の代わりにイメージを指定  */
+  list-style:circle inside url(icon.png); /* 一括指定 */
+}
+
+
+ol{
+  /* list-style-type: lower-alpha; */  /* a,b,c */
+  list-style-type: none; /* つけない */
+
+}

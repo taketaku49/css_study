@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSSの学習（目次）</title>
+  <style>
+    a{text-decoration:none;
+    background-color:pink;
+  </style>
+</head>
+<body>
+  詳解CSSセレクター編
+  <ol>
+    <li><a href="./2-1/index.html">CSSの基本セレクターを学んでいこう　＃１</a>
+      セレクターのパターン
+    </li>
+    <li><a href="./2-2/index.html">要素型セレクター､classセレクターを使おう　＃２</a>
+      HTMLにclass="name1 name2"のように複数つけることも可能。
+    </li>
+    <li><a href="./2-3/index.html">idセレクター､全称セレクターを使おう　＃３</a>
+      <pre>
+      &lt;h1 id=&quot;title&quot;&gt;見出し&lt;/h1&gt; 
+      #title {
+        color:pink;
+      }
+      id属性は同じページ内で同じ値を使ってはいけない。
+      また、空白もダメなのでclass属性のように複数指定はできない。
+      したがって、柔軟なスタイリングをするならclass属性のほうが良いかも。
+      
+      全称セレクタ
+      * {
+        font-size: 12px;
+      }
+      </pre>
+    </li>
+    <li><a href="./2-4/index.html">属性セレクターを使ってみよう　＃４</a></li>
+        <pre>
+          cssの書き方
+          存在の有無　　[attr]
+          完全一致　　　[attr="value"]
+          前方一致　　　[attr^="value"]
+          後方一致　　　[attr$="value"]
+          部分一致　　　[attr*="value"]
+        </pre>
+    <li><a href="./2-5a/index.html">組み合わせ。カンマはどちらかが該当すればよい。　＃５Ａ</a></li>
+    <li><a href="./2-5b/index.html">組み合わせ。ピリオドはどちらも満たす。要素型同士はNG　＃５Ｂ</a></li>
+    <li><a href="./2-5c/index.html">組み合わせ。> はその階層（直下）に該当するもの　＃５Ｃ</a></li>
+    <li><a href="./2-5d/index.html">組み合わせ。>を無くしてブランクはその階層より下に該当するもの全部　＃５Ｄ</a></li>
+    <li><a href="./2-5e/index.html">組み合わせ。+は同じ階層の中でこちらの直後にあるという意味　＃５Ｅ</a></li>
+    <li><a href="./2-6/index.html">::before､::after擬似要素を使おう　＃６</a></li>
+    <li><a href="./2-7/index.html">:hover擬似クラスを使ってみよう　＃７</a></li>
+    <li><a href="./2-8/index.html">:nth-child擬似クラスを使おう　＃８</a></li>
+    <li><a href="./2-9/index.html">:nth-of-type擬似クラスを使おう　＃９</a></li>
+    <li><a href="./2-10/index.html">:empty､:not擬似クラスを使おう　＃１０</a></li>
+    <li><a href="./2-11/index.html">詳細度を計算してみよう　＃１１</a></li>
+    <li><a href="./2-12/index.html">優先されるスタイルを確認しよう　＃１２</a></li>
+                
+  </ol>
+</body>
+</html>

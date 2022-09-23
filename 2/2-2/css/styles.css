@@ -1,0 +1,17 @@
+
+/* 要素型セレクター */
+/*
+h1 {
+  color: skyblue;
+}
+*/
+
+/* classセレクター */
+.info {
+  color: skyblue;
+}
+
+.title {
+  font-weight: normal;
+}
+
