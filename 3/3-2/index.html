@@ -12,20 +12,21 @@
 <body>
  <h2>Flex Container</h2>
  <ul>
-  <li>flex-direction</li>
-  <li>justify-content</li>
-  <li>align-items</li>
-  <li>flex-wrap</li>
-  <li>align-content</li>
+  <li>flex-direction　主軸の方向を決める。デフォルトは左から１，２，３</li>
+  <li>justify-content　主軸に沿って要素をどう揃えるかを指定。デフォルトは左揃え。space-betweenは要素の間に余白が均等に配置される。</li>
+  <li>align-items　交差軸に沿って要素をどう揃えるか。縦方向の位置。デフォルトは上揃え。flexboxでalignとなっていたら交差軸に対しての操作。</li>
+  <li>flex-wrap　要素の幅がコンテナの幅を超える場合のプロパティ。デフォルトは折り返さずにそれぞれの幅が縮む。</li>
+  <li>align-content　flex-wrap:wrapになっている時に交差軸方向で要素を揃えたい時に使う。</li>
  </ul>
 
- <h2>Flex Item</h2>
+ <h2>Flex Item・・・個々のItemについて</h2>
  <ul>
-  <li>align-self</li>
-  <li>order</li>
-  <li>flex-basis</li>
-  <li>flex-grow</li>
-  <li>flex-shrink</li>
+  <li>align-self　交差軸方向の揃え</li>
+  <li>order　順番</li>
+  <li>flex-basis　個々のアイテムをどれだけ伸ばしたり縮めたりするかを指定するプロパティ。<br>
+  　widthで設定したよりもflex-basisで指定した値が有効。max-widthが指定されていればそれが有効となる。</li>
+  <li>flex-grow　余白の余った分の割り当てをする</li>
+  <li>flex-shrink　幅が足りなかった時にどの要素を縮めるかを指定する</li>
  </ul>
 
 
