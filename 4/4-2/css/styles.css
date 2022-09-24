@@ -1,0 +1,21 @@
+body{
+  padding: 64px;
+}
+
+
+.box{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: border-radius; /* 中間を補完するプロパティはborder-radius */
+  transition-duration: 1s; /* それにかかる時間は１秒 */
+}
+
+/* マウスホバーで丸くする */
+.box:hover {
+  /* 変化後 */
+  border-radius:50%;
+}

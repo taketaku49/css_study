@@ -1,0 +1,89 @@
+body{
+  padding: 64px;
+}
+
+
+.box{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 5s; /* それにかかる時間は5秒 */
+}
+
+/* マウスホバーで移動する */
+.box:hover {
+  /* 変化後 */
+  transform: translate(1000px,500px);
+}
+
+.box2{
+  /* 変化前 */
+  background: skyblue;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+}
+
+/* マウスホバーで回転する */
+.box2:hover {
+  /* 変化後 */
+  transform: rotate(30deg);
+}
+
+.box3{
+  /* 変化前 */
+  background: tomato;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+}
+
+/* マウスホバーで大きさを変化する */
+.box3:hover {
+  /* 変化後 */
+  transform: scale(3,5);
+}
+
+.box4{
+  /* 変化前 */
+  background: green;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+}
+
+/* マウスホバーで大きさを変化する */
+.box4:hover {
+  /* 変化後 */
+  transform: translateX(100px) rotate(30deg); /* 横に行ってから回転する */
+}
+
+.box5{
+  /* 変化前 */
+  background: gold;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+}
+
+/* マウスホバーで大きさを変化する */
+.box5:hover {
+  /* 変化後 */
+  transform: rotate(30deg) translateX(100px) ; /* 回転してから横に行く */
+}
