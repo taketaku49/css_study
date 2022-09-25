@@ -1,0 +1,25 @@
+body{
+  padding: 64px;
+}
+
+
+
+.box1{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 0.3s; /* それにかかる時間はｘ秒 */
+  /* transition-delay: 1s; 開始するまでの時間 */
+}
+
+/* マウスホバーで回転する */
+.box1:hover {
+  /* 変化後 */
+  transform: translateX(50px);
+  
+}
+

@@ -1,0 +1,32 @@
+body{
+  padding: 64px;
+}
+
+
+
+.box1{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  animation-name: move;
+  animation-duration:2s; /* 全部で2秒 */
+  animation-delay: 1s; /* １秒待ってから動く */
+  animation-fill-mode:forwards;  /* 終わった時にそのまま */
+  /* animation-iteration-count: 2; */ /* ２回繰り返す */
+  animation-iteration-count: infinite; /* 無限に繰り返す */
+}
+
+@keyframes move {
+    0% {
+      transform: none;
+    }
+    80% {
+      transform: translateX(200px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(300px) rotate(360deg);
+    }
+
+}

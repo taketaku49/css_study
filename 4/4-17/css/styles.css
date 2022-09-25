@@ -1,0 +1,33 @@
+body {
+  padding: 64px;
+}
+
+.loading {
+  width: 400px;
+  height: 400px;
+  /* background: orange; */
+  border: 18px solid rgb(15, 15, 15);
+  /* border: 18px solid rgb(204, 111, 111); */
+
+  border-right-color: transparent;
+  border-radius: 50%;
+
+  animation: spin .8s infinite linear;
+}
+
+@keyframes spin {
+  /* 0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  } */
+
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}

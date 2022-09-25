@@ -1,0 +1,42 @@
+body{
+  padding: 64px;
+}
+
+
+
+.box1{
+  /* 変化前 */
+  background: skyblue;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+  transform-origin: top left; /* 起点を変更。左上を起点にする */
+}
+
+/* マウスホバーで回転する */
+.box1:hover {
+  /* 変化後 */
+  transform: rotate(30deg);
+}
+
+.box2{
+  /* 変化前 */
+  background: tomato;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+  transform-origin: top left; /* 起点を変更。左上を起点にする */
+}
+
+/* マウスホバーで回転する */
+.box2:hover {
+  /* 変化後 */
+
+  transform: scale(.5,2)
+}

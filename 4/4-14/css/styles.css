@@ -1,0 +1,36 @@
+body{
+  padding: 64px;
+}
+
+
+
+.box1{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  animation-name: move;
+  animation-duration:2s; /* 全部で2秒 */
+  
+  animation-iteration-count: infinite; /* 無限に繰り返す */
+  /* animation-direction:alternate; */ /* 折り返して戻る */
+  /* animation-direction:reverse; */  /* 逆再生 */
+  /* animation-direction:alternate-reverse; */ /* 逆再生し折り返す */
+  /* animation-timing-function: linear; */ /* 等速で動く */
+}
+
+
+@keyframes move {
+    0% {
+      transform: none;
+      animation-timing-function: linear;  /* 80%まで等速 */
+    }
+    80% {
+      transform: translateX(200px) rotate(360deg);
+    }
+    100% {
+      transform: translateX(300px) rotate(360deg);
+    }
+
+}

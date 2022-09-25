@@ -1,0 +1,88 @@
+body{
+  padding: 64px;
+}
+
+
+
+.box1{
+  /* 変化前 */
+  background: orange;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  /* transition-property: transform;*/ /* 中間を補完するプロパティはtransform */
+  /* transition-duration: 1s;*/ /* それにかかる時間はｘ秒 */
+  /* transition-timing-function: ease-out; */
+
+  /* 一括指定 */
+  transition: transform 1s ease-out 0.3s,background 2s;
+  /* transition-delay: 1s; 開始するまでの時間 */
+}
+
+/* マウスホバーで回転する */
+.box1:hover {
+  /* 変化後 */
+  transform: translateX(500px);
+  background: skyblue;
+}
+
+.box2{
+  /* 変化前 */
+  background: skyblue;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+  transition-timing-function: ease-out;
+  /* transition-delay: 1s; 開始するまでの時間 */
+}
+
+/* マウスホバーで回転する */
+.box2:hover {
+  /* 変化後 */
+  transform: translateX(500px);
+  
+}
+
+.box3{
+  /* 変化前 */
+  background: tomato;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+  transition-timing-function: ease-in-out;
+  /* transition-delay: 1s; 開始するまでの時間 */
+}
+
+/* マウスホバーで回転する */
+.box3:hover {
+  /* 変化後 */
+  transform: translateX(500px);
+  
+}
+
+.box4{
+  /* 変化前 */
+  background: greenyellow;
+  width:100px;
+  height: 100px;
+
+  /* 中間を補完 */
+  transition-property: transform; /* 中間を補完するプロパティはtransform */
+  transition-duration: 1s; /* それにかかる時間はｘ秒 */
+  transition-timing-function: linear;
+  /* transition-delay: 1s; 開始するまでの時間 */
+}
+
+/* マウスホバーで回転する */
+.box4:hover {
+  /* 変化後 */
+  transform: translateX(500px);
+  
+}
