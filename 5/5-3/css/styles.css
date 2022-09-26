@@ -1,0 +1,6 @@
+/* 幅が600pxから800pxの時に背景が青になる */
+@media (min-width: 600px) and (max-width: 800px) {
+  body {
+    background: skyblue;
+  }
+}
