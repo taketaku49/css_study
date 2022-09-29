@@ -1,0 +1,35 @@
+body {
+  margin:0;
+}
+
+.container{
+  display: grid;
+
+
+  /* ３列２行 */
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px ;
+
+  /* 縦にも横にも10pxの余白 */
+  /* gap:10px; */
+
+  /* 縦方向の余白、横方向の余白 */
+  gap:20px 40px;
+
+}
+
+.box1 {
+  background : hsl(0,60%,60%);
+}
+.box2 {
+  background : hsl(60,60%,60%);
+}
+.box3 {
+  background : hsl(120,60%,60%);
+}
+.box4 {
+  background : hsl(180,60%,60%);
+}
+.box5 {
+  background : hsl(240,60%,60%);
+}

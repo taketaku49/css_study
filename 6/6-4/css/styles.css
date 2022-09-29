@@ -1,0 +1,40 @@
+body {
+  margin:0;
+}
+
+.container{
+  display: grid;
+
+  /* ２列３行 */
+  /* grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px 100px; */
+
+  /* ３列２行 */
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px ; */
+
+  /* 左右に100pxを配置した後は残りという指定 */
+  /* grid-template-columns: 100px 1fr 100px;
+  grid-template-rows: 100px 100px ; */
+
+  /* 余白を２対１とするには 2fr 1fr と書く */
+  grid-template-columns: 100px 2fr 1fr;
+  grid-template-rows: 100px 100px ;
+
+}
+
+.box1 {
+  background : hsl(0,60%,60%);
+}
+.box2 {
+  background : hsl(60,60%,60%);
+}
+.box3 {
+  background : hsl(120,60%,60%);
+}
+.box4 {
+  background : hsl(180,60%,60%);
+}
+.box5 {
+  background : hsl(240,60%,60%);
+}

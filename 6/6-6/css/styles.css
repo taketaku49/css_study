@@ -1,0 +1,58 @@
+body {
+  margin:0;
+}
+
+.container{
+  display: grid;
+
+
+  /* ３列２行 */
+  /* grid-template-columns: 100px 100px 100px; */
+
+  /* 4列を100pxとする */
+  /* grid-template-columns: repeat(4,100px); */
+
+  /* ブラウザ幅に合わせて増える */
+  grid-template-columns: repeat(auto-fill,100px);
+
+  grid-template-rows: 100px 100px ;
+
+
+
+}
+
+.box1 {
+  background : hsl(0,60%,60%);
+}
+.box2 {
+  background : hsl(60,60%,60%);
+}
+.box3 {
+  background : hsl(120,60%,60%);
+}
+.box4 {
+  background : hsl(180,60%,60%);
+}
+.box5 {
+  background : hsl(240,60%,60%);
+}
+
+.box6 {
+  background : hsl(0,60%,60%);
+}
+.box7 {
+  background : hsl(60,60%,60%);
+}
+.box8 {
+  background : hsl(120,60%,60%);
+}
+.box9 {
+  background : hsl(180,60%,60%);
+}
+.box10 {
+  background : hsl(240,60%,60%);
+}
+
+.box11 {
+  background : hsl(0,60%,60%);
+}
