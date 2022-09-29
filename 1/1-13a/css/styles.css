@@ -1,0 +1,42 @@
+.box1 {
+  background-color: orange;
+  width:200px;
+  height: 200px;
+  padding:10px;
+  border: 2px solid blue; 
+  margin:10px;
+}
+
+.box2 {
+  background-color: skyblue;
+  width:200px;
+  height: 200px;
+  /*
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue; */
+  /* 一括指定 */
+  border: 2px solid blue; 
+  
+  /* padding-top: 20px;  */
+  /* padding-left: 40px; */
+  
+  /* 一括指定 */
+  padding: 10px 20px 30px 40px;
+
+}
+.box3 {
+  background-color: tomato;
+  width:200px;
+  height: 200px;
+  border: 2px solid blue; 
+  margin:10px;
+}
+.box4 {
+  background-color: yellow;
+  width:200px;
+  height: 200px;
+  border: 2px solid blue; 
+  margin-left : auto;
+  margin-right:auto;
+}
