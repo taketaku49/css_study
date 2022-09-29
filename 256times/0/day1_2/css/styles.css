@@ -1,0 +1,12 @@
+h1 {
+  font-size:44px;
+  background: gainsboro;
+  /* padding: 8px; */
+  padding: 0 8px;
+  border-left:10px solid orange;
+}
+
+p {
+  line-height: 1.4;
+  
+}

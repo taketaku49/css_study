@@ -1,0 +1,20 @@
+h1 {
+  font-size:24px;
+  /* text-decoration:underline; */ /* 間違えた */
+  /* line-height: 1.6;  */  /* 間違えた */
+  border-bottom:2px black solid; /* これが正解のよう */
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h2{
+  font-size: 18px;
+}
+
+h3 {
+  font-size:18px;
+  font-weight: normal;
+}
