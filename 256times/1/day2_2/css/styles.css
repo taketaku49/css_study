@@ -1,0 +1,26 @@
+/* 右の仕様を満たすように CSS を書いて実装してみましょう */
+/* この課題ではフレックスボックスを使ってはいけません */
+
+
+a {
+  display:inline-block;
+  width:140px;
+  height:20px;
+  font-size:14px;
+  color:black;
+  background:white;
+  border-radius:10px;
+  border:solid black 2px;
+  text-align:center;
+  text-decoration:none;
+  padding:5px;
+  font-weight:bold;
+}
+
+a:hover{
+  color:white;
+  background:black;
+  /* cursor:hand; */
+  cursor:help;
+
+}

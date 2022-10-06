@@ -1,0 +1,55 @@
+.ruler {
+  height: 8px;
+  width: 400px;
+  background: gray;
+  margin: 16px 0;
+}
+
+/* これより上の CSS は変更してはいけません */
+/* 右の仕様を満たすように CSS を書いて実装してみましょう */
+/* この課題ではフレックスボックスを使ってはいけません */
+
+section {
+  border:solid 2px gray;
+  box-sizing:border-box;
+  width:400px;
+  border-radius:10px;
+}
+
+h1 {
+  /* background:pink; */
+  margin:0;
+  line-height:1.4;
+  padding:10px;
+  border-bottom:2px gray solid;
+  width:350px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+p {
+  /* background:yellow; */
+  margin:0;
+  line-height:1.6;
+  padding:10px 15px;
+
+}
+
+a {
+  display:inline-block;
+  text-decoration:none;
+  width:100px;
+  border:solid 1px black;
+  text-align:center;
+  padding:3px;
+  margin-bottom:5px;
+  border-radius:5px;
+  color:black;
+  font-weight:bold;
+  margin-left:10px;
+}
+
+a:hover {
+  color:white;
+  background:black;
+}

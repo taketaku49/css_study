@@ -1,0 +1,47 @@
+.ruler {
+  height: 8px;
+  width: 400px;
+  background: gray;
+  margin: 16px 0;
+}
+
+/* これより上の CSS は変更してはいけません */
+/* 右の仕様を満たすように CSS を書いて実装してみましょう */
+/* この課題ではフレックスボックスを使用してはいけません */
+
+p {
+
+  width:400px;
+  line-height:1.6;
+}
+
+.card-p1 {
+  box-sizing: border-box;  /* 境界線を含めたサイズになる */
+  border: solid 2px grey;
+  border-left:15px skyblue solid;
+  padding:10px;
+  box-shadow:5px 5px 3px 3px rgba(0,0,0,0.3);
+}
+
+.sec-card-2 {
+  box-sizing: border-box;  /* 境界線を含めたサイズになる */
+  border: solid 2px grey;
+  border-left:15px green solid;
+  border-top-right-radius:8px;
+  border-bottom-right-radius:8px;
+  width:400px;
+  padding:10px;
+  box-shadow:5px 5px 3px 3px rgba(0,0,0,0.3);
+}
+
+.card-p2 {
+  box-sizing: border-box;  /* 境界線を含めたサイズになる */
+  /* padding:10px; */
+  width:350px;
+
+}
+
+h1 {
+  line-height:1.4;
+  color:green;
+}
